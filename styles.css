@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Papyrus';
+  font-size: 20px;
+  background-color: rgb(228, 203, 215);
+  height: 2000px;
+  text-align:center;
+}
+
+.wrapper{
+  width:1170px;
+  margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    margin: auto;
+    padding: 10px;
+    white-space: nowrap;
+    float: right;
+    line-height: 100px;
+}
+
+header{
+  height: 100px;
+  background: lavender;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
+.spinachimg {
+  float: left;
+  padding-right: 25px;
+}
+
+.cookieimg {
+  float: right;
+  padding-right: 25px;
+}
+
+.chickenimg {
+  float: left;
+  padding-right: 25px;
+}
